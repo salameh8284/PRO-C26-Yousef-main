@@ -49,10 +49,10 @@ function draw() {
     if (playerArrows[i] !== undefined) {
       playerArrows[i].display();
 
-      /* var board1Collision = Matter.SAT.collides(
+       var board1Collision = Matter.SAT.collides(
         board1.body,
         playerArrows[i].body
-      ); */
+      ); 
 
       /* var board1Collision = collides(
         board1.body,
@@ -76,6 +76,9 @@ function draw() {
 
       if (board1Collision.collided || board2Collision.collided) {
         console.log("Collided");
+      }
+      else{
+        console.log(" Not Collided");
       }
 
       var posX = playerArrows[i].body.position.x;

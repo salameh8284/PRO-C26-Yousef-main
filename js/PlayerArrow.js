@@ -19,17 +19,17 @@ class PlayerArrow {
     delete playerArrows[index];
   } */
 
-  /* remove(index) {
+   remove(index) {
     this.isRemoved = true;
     Matter.World.remove(world, this.body);
     delete playerArrows[index];
-  } */
+  } 
 
-  /* remove(index) {
+  /*remove(index) {
     this.isRemoved = true;
     Matter.World.remove(this.body);
     delete playerArrows[index];
-  } */
+  }*/ 
 
   /* remove(index) {
     this.isRemoved = true;
